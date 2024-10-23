@@ -137,3 +137,7 @@ func (s *mockCloudStorage) RootURI() fyne.URI {
 func (s *mockCloudStorage) Save(name string) (fyne.URIWriteCloser, error) {
 	return nil, errors.New("not implemented")
 }
+
+func (s *mockCloudStorage) Append(name string) (fyne.URIWriteCloser, error) {
+	return nil, errors.New("not implemented")
+}
